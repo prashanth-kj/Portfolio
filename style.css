@@ -735,7 +735,7 @@ header{
   }
   
   .container {
-      width: 100%; 
+      width: 90%; 
       max-width: 300px; 
       margin:auto 0; 
       padding: 20px; 
@@ -746,9 +746,9 @@ header{
       top:-380px;
 }
 .section-card {
-      width: 360px;
+      width: 350px;
       box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3); 
-      margin: 3%;
+      margin-left: -2%;
   }
   .section-about{
       display: flex;
@@ -772,17 +772,17 @@ header{
       transition: transform 0.3s ease;
   }
       .profile-left{
-            width: 100%;
+            width: 80%;
             text-align: center;
       }
       .profile-right{
-            width: 100%;
+            width: 90%;
             font-size:large;
             
       }
       .profile-left img{
-            width: 320px;
-            height: 400px;
+            width: 300px;
+            height: 390px;
       }
       
       .profile-badge .badge{
@@ -860,7 +860,7 @@ header{
       width: 100%;
       display: grid;
       grid-template-columns: repeat(2, 1fr);
-      margin-left: 15%;
+      margin-left: 10%;
       
 }
 .skill-icon{
@@ -903,7 +903,7 @@ header{
 
 .Education{
       position: absolute;
-      top: 1850px;
+      top: 1700px;
       width: 100%;
 }
 
@@ -911,13 +911,21 @@ header{
       font-size: x-large;
       padding-bottom: 50px;
       text-align: center;
-      margin-left: 35%;
+      margin-left: 25%;
 }
 
+.timeline {
+      position: relative;
+      width: 370px;
+      margin: 0 auto;
+      margin-top: 20px;
+      padding: 1em 0;
+      list-style-type: none;
+    }
 /* Projects */
 .Projects{
       position: absolute;
-      top: 2580px;
+      top: 2350px;
       width: 100%;
 }
 .project-title{
@@ -936,7 +944,7 @@ header{
     display: block;
     text-align: center;
     width: 400px;
-    padding: 30px;
+    padding: 15px;
     border: 1px solid gray;
     margin-bottom: 40px;
     border-radius: 45px;
@@ -958,9 +966,9 @@ header{
 /* contact */
 .contact{
       position: absolute;
-      top:5300px;
+      top:4950px;
       width: 100%;
-      margin-left: 16%;
+      margin-left: 10%;
 }
 .contact-title{
         font-size: x-large;
@@ -1173,7 +1181,7 @@ header{
 .skill-icon i:hover{
     transform: scale(1.06);
     transition: transform 0.4s ease;
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3); /* Adjust the values as needed */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
 }
 .express-icon:hover{
     transform: scale(1.06);
@@ -1198,6 +1206,7 @@ header{
 .timeline {
       
      padding: 4em 0 1em 0;
+     
      position: absolute;
      z-index: -1;
 }
@@ -1213,11 +1222,13 @@ header{
        font-size: x-large;
        padding-bottom: 50px;
        text-align: center;
+       /* margin-left:53%; */
 }  
 
 .project-cards{
       display: flex;
       flex-wrap: wrap;
+      
       width: 100%;
       margin-left:20px;
 }
@@ -1234,10 +1245,10 @@ header{
 .project:hover{
       transform: scale(1.01);
       transition: transform 0.4s ease;
-      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); /* Adjust the values as needed */
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); 
 }
 .project a:hover{
-        display: inline-block;
+      display: inline-block;
         background-color: #fff;
         color: black;
         border: 1px solid gray;
@@ -1257,9 +1268,10 @@ header{
         text-align: center;
 }
 .scroll-top{
+  
             display: none;
+      
 }
-
  }
 
 
@@ -1349,11 +1361,11 @@ header{
               
       }
       .container{
+           /* width:62%; */
            width: 80%;
            margin: auto;
            position: relative;
       }
-
       /* about */
       .about{
             position: absolute;
@@ -1362,7 +1374,7 @@ header{
       
       .section-card {
             border-radius: 20px;
-            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3); 
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3); /* Adjust the values as needed */
         }
         
         
@@ -1411,6 +1423,7 @@ header{
       }
       
       .profile-badge{
+          /* margin-top: 10px; */
           margin-bottom: 20px;
       }
       .profile-span{
@@ -1420,6 +1433,8 @@ header{
       .profile-title{
               font-size:70%;
       }
+      
+      
       
       .profile-list{
             display: flex;
@@ -1471,7 +1486,7 @@ header{
             color: black;
             padding:20px 50px 20px 50px;
             font-weight: bold;
-            
+            /* box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3); */
       }
       .section-button a:hover{
             border: none;
@@ -1507,6 +1522,7 @@ header{
       
       .skill-icon{
               width:100%;
+              /* font-size:400%; */
               color:black;
               text-align: center;
              
@@ -1520,6 +1536,7 @@ header{
                border-radius: 22%;
                background-color: mintcream;
               
+      
       }
       
       .express-icon{
@@ -1534,7 +1551,7 @@ header{
       .skill-icon i:hover{
             transform: scale(1.06);
             transition: transform 0.4s ease;
-            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3); 
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3); /* Adjust the values as needed */
       }
       .express-icon:hover{
             transform: scale(1.06);
