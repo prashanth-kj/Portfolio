@@ -695,7 +695,7 @@ header{
             position: relative;
             background-color: mintcream;
       }
-      /* header */
+/* header */
 header{
       min-height: 0px;
       
@@ -704,9 +704,6 @@ header{
       width: 425px;
        min-height: 500px;
        background-color: rgba(44, 51, 64, 0.8);
-       /* background-size: cover;
-       background-position: center;
-       background-repeat: no-repeat; */
      }
 
      .head-nav{
@@ -742,10 +739,11 @@ header{
   }
   .container {
       width: 100%; 
-      /* max-width: 500px;  */
       padding: 50px; 
      
   }
+
+  /* About */
   .about{
       position: absolute;
       top:-420px;
@@ -851,7 +849,9 @@ margin-left: 10px;
   margin-left: 2px;
   line-height: 35px;  
 }
- 
+
+/* skills */
+
 .skills{
       position: absolute;
       top:930px;
@@ -907,6 +907,8 @@ margin-left: 10px;
     transition: transform 0.4s ease;
     box-shadow: 0 4px 20px rgba(95, 95, 95, 0.3);
 }
+/* Education */
+
 .Education{
       position: absolute;
       top: 1570px;
@@ -927,6 +929,7 @@ margin-left: 10px;
      position: absolute;
      z-index: -1;
 }
+/* Projects */
 
 .Projects{
       position: absolute;
@@ -942,10 +945,8 @@ margin-left: 10px;
 }  
 .project-cards{
       display: flex;
-      flex-wrap: wrap;
-      
+      flex-wrap: wrap; 
       width: 100%;
-      /* margin-left:20px; */
 }
 .project{
     display: block;
@@ -961,8 +962,8 @@ margin-left: 10px;
 .project img{
       width: 200px;
       height: 100px;
-      /* margin: 10px; */
 }
+/* contact */
 .contact{
       position: absolute;
       top:4900px;
@@ -976,7 +977,6 @@ margin-left: 10px;
 }
 }
 
-
 @media (min-width:377px) and (max-width:496px){
       .wrapper{
             margin: 0;
@@ -987,7 +987,7 @@ margin-left: 10px;
             background-color: mintcream;
       }
       
-   
+   /* header */
      header{
       min-height: 0px;
 
@@ -1032,6 +1032,7 @@ margin-left: 10px;
       padding: 20px; 
      
   }
+  /* about */
   .about{
       position: absolute;
       top:-400px;
@@ -1135,7 +1136,7 @@ margin-left: 10px;
         line-height: 35px;  
   }
 
-
+  /* skills */
 
   .skills{
       position: absolute;
@@ -1194,7 +1195,7 @@ margin-left: 10px;
 }
 
 
-
+/* Education */
 .Education{
       position: absolute;
       top: 1600px;
@@ -1216,7 +1217,7 @@ margin-left: 10px;
       padding: 1em 0;
       list-style-type: none;
     }
-
+    /* Projects */
 .Projects{
       position: absolute;
       top: 2300px;
@@ -1258,7 +1259,7 @@ margin-left: 10px;
         border-color: black;
 }
 
-
+/* contact */
 .contact{
       position: absolute;
       top:4900px;
@@ -1285,6 +1286,7 @@ margin-left: 10px;
             position: relative;
             background-color: mintcream;
       }
+      /* header */
       header{
             min-height: 0px;
       
@@ -1656,7 +1658,7 @@ margin-left: 10px;
               
       }
       .container{
-           /* width:62%; */
+
            width: 80%;
            margin: auto;
            position: relative;
@@ -1669,7 +1671,7 @@ margin-left: 10px;
       
       .section-card {
             border-radius: 20px;
-            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3); /* Adjust the values as needed */
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3); 
         }
         
         
@@ -1718,7 +1720,7 @@ margin-left: 10px;
       }
       
       .profile-badge{
-          /* margin-top: 10px; */
+        
           margin-bottom: 20px;
       }
       .profile-span{
@@ -1781,7 +1783,7 @@ margin-left: 10px;
             color: black;
             padding:20px 50px 20px 50px;
             font-weight: bold;
-            /* box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3); */
+        
       }
       .section-button a:hover{
             border: none;
@@ -1817,7 +1819,6 @@ margin-left: 10px;
       
       .skill-icon{
               width:100%;
-              /* font-size:400%; */
               color:black;
               text-align: center;
              
@@ -1846,7 +1847,7 @@ margin-left: 10px;
       .skill-icon i:hover{
             transform: scale(1.06);
             transition: transform 0.4s ease;
-            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3); /* Adjust the values as needed */
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3); 
       }
       .express-icon:hover{
             transform: scale(1.06);
