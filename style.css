@@ -701,7 +701,7 @@ header{
       
  }
      .head-bg{
-      width: 430px;
+      width: 425px;
        min-height: 500px;
        background-color: rgba(44, 51, 64, 0.8);
        /* background-size: cover;
@@ -723,7 +723,7 @@ header{
       top: 11px;
       font-size: x-large;
       color: grey;
-      padding-right: 50px;
+      padding-right: 10px;
       
     }
     .scroll-top{
@@ -823,6 +823,7 @@ header{
 .section-button {
 margin-top: 70px;
 margin-bottom: 50px;
+margin-left: 10px;
 }
 .section-button:hover {
   transform: scale(1.06);
@@ -976,7 +977,7 @@ margin-bottom: 50px;
 }
 
 
-/* @media (max-width:496px){
+@media (min-width:377px) and (max-width:496px){
       .wrapper{
             margin: 0;
             padding: 0;
@@ -993,7 +994,7 @@ margin-bottom: 50px;
      }
      .head-bg{
        width: 100%;
-       min-height: 510px;
+       min-height: 500px;
        background-color: rgba(44, 51, 64, 0.8);
      }
   .head-nav{
@@ -1025,7 +1026,7 @@ margin-bottom: 50px;
   }
   
   .container {
-      width: 90%; 
+      width: 100%; 
       max-width: 300px; 
       margin:auto 0; 
       padding: 20px; 
@@ -1033,12 +1034,12 @@ margin-bottom: 50px;
   }
   .about{
       position: absolute;
-      top:-380px;
+      top:-400px;
 }
 .section-card {
       width: 350px;
       box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3); 
-      margin-left: -2%;
+      margin: 5%;
   }
   .section-about{
       display: flex;
@@ -1062,17 +1063,17 @@ margin-bottom: 50px;
       transition: transform 0.3s ease;
   }
       .profile-left{
-            width: 80%;
+            width: 100%;
             text-align: center;
       }
       .profile-right{
-            width: 90%;
+            width: 100%;
             font-size:large;
             
       }
       .profile-left img{
-            width: 300px;
-            height: 390px;
+            width: 280px;
+            height: 340px;
       }
       
       .profile-badge .badge{
@@ -1105,7 +1106,7 @@ margin-bottom: 50px;
   .section-button {
         margin-top: 50px;
         margin-bottom: 50px;
-        margin-left: auto;  
+        margin-left: 40px;  
   }
   .section-button:hover {
         transform: scale(1.06);
@@ -1129,7 +1130,8 @@ margin-bottom: 50px;
         font-size: large;
         margin-top: 40px;
         margin-bottom: 50px;
-        margin-left: 2px;  
+        margin-left: 20px;  
+        text-align: justify;
         line-height: 35px;  
   }
 
@@ -1137,7 +1139,7 @@ margin-bottom: 50px;
 
   .skills{
       position: absolute;
-      top:1000px;
+      top:940px;
       width: 100%;
  }
  .skills-title{
@@ -1150,7 +1152,7 @@ margin-bottom: 50px;
       width: 100%;
       display: grid;
       grid-template-columns: repeat(2, 1fr);
-      margin-left: 10%;
+      margin-left: 13%;
       
 }
 .skill-icon{
@@ -1162,7 +1164,7 @@ margin-bottom: 50px;
 
 .skill-icon i{
        border: 1px solid rgba(140, 141, 140, 0.5);
-       font-size: xxx-large;
+       font-size: xx-large;
        padding: 25px;
        margin: 10px;
        border-radius: 22%;
@@ -1170,6 +1172,8 @@ margin-bottom: 50px;
 }
 
 .express-icon{
+      width: 80px;
+      height: 84px;
       margin-top: 15px;
       border:1px solid rgba(140, 141, 140, 0.5);
       padding: 15px;
@@ -1193,7 +1197,7 @@ margin-bottom: 50px;
 
 .Education{
       position: absolute;
-      top: 1700px;
+      top: 1600px;
       width: 100%;
 }
 
@@ -1215,14 +1219,14 @@ margin-bottom: 50px;
 
 .Projects{
       position: absolute;
-      top: 2350px;
+      top: 2300px;
       width: 100%;
 }
 .project-title{
        font-size: x-large;
        padding-bottom: 50px;
        text-align: center;
-       margin-left:30%;
+       margin-left:25%;
 }    
 .project-cards{
       display: flex;
@@ -1233,11 +1237,12 @@ margin-bottom: 50px;
 .project{
     display: block;
     text-align: center;
-    width: 400px;
+    width: 350px;
     padding: 15px;
     border: 1px solid gray;
     margin-bottom: 40px;
     border-radius: 45px;
+    margin-left: 5%;
     background-color: white;
 }
 .project:hover{
@@ -1256,9 +1261,9 @@ margin-bottom: 50px;
 
 .contact{
       position: absolute;
-      top:4950px;
-      width: 100%;
-      margin-left: 10%;
+      top:4900px;
+      width: 350px;
+      margin-left: 5%;
 }
 .contact-title{
         font-size: x-large;
@@ -1269,7 +1274,7 @@ margin-bottom: 50px;
       display: none;
 }
 
-} */
+}
 
 @media (min-width:497px) and (max-width:768px){
       .wrapper{
