@@ -571,11 +571,52 @@ header{
       }
     }
 
+
+/* certification */
+    
+.certification{
+        position: absolute;
+        top: 1400px;
+        width: 100%;
+}
+.certificate-title{
+      font-size: x-large;
+      padding-bottom: 50px;
+      text-align: center;
+}
+.certificate-logo > p{
+        text-align: center;
+}
+.certificate-logo{
+      align-self: center;
+}
+.vl {
+      border-left: 3px solid black;
+      height: 120px;
+      align-self: center;
+    }
+.certificate{
+       width: 100%;
+       display: flex;
+       justify-content: center;
+       align-content: center;
+       gap: 60px;
+       border: 1px solid black;
+       border-radius: 30px;
+       padding: 20px;
+       /* margin-left: 110px; */
+      
+}
+.certificate-details{
+       font-size: larger;
+       align-self: center;
+       line-height: 35px;
+}
 /* Projects */
 
  .Projects{
        position: absolute;
-       top: 1500px;
+       top: 1750px;
        width: 100%;
  }
 .project-title{
@@ -623,7 +664,7 @@ header{
       background-color: #e8676b;
       padding: 10px;
       margin-top: 50px;
-      width: 40%;
+      width: 30%;
       border-radius: 20px;
       border-color: white;
       text-decoration: none;
@@ -643,7 +684,7 @@ header{
 
 .contact{
       position: absolute;
-      top: 2930px;
+      top: 3200px;
       width: 100%;
 }
 .contact-title{
@@ -929,11 +970,58 @@ margin-left: 10px;
      position: absolute;
      z-index: -1;
 }
+    /* certification */
+    
+    .certification{
+      position: absolute;
+      top: 2150px;
+      width: 350px;
+      /* margin-left: 5%; */
+}
+.certificate-title{
+    font-size: x-large;
+    padding-bottom: 50px;
+    text-align: center;
+}
+.certificate-logo > p{
+      align-self: center;
+      text-align: center;
+      font-size: larger;
+}
+.certificate-logo{
+      display: flex;
+
+}
+.vl {
+    border-left: 3px solid black;
+    height: 120px;
+    align-self: center;
+    display: none;
+  }
+.certificate{
+     width: 90%;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     border: 1px solid black;
+     border-radius: 30px;
+     padding: 20px;
+    
+}
+.certificate-details{
+      width: 300px;
+      margin-top:-50px;
+     font-size: large;
+     /* align-self: center; */
+     line-height: 35px;
+     text-align: center;
+     
+}
 /* Projects */
 
 .Projects{
       position: absolute;
-      top: 2300px;
+      top: 2600px;
       width: 100%;
 }
 .project-title{
@@ -963,10 +1051,12 @@ margin-left: 10px;
       width: 200px;
       height: 100px;
 }
+
+
 /* contact */
 .contact{
       position: absolute;
-      top:4900px;
+      top:5200px;
       width: 300px;
       height: 70vh;
 }
@@ -1217,10 +1307,60 @@ margin-left: 10px;
       padding: 1em 0;
       list-style-type: none;
     }
-    /* Projects */
+
+
+    /* certification */
+    
+.certification{
+      position: absolute;
+      top: 2150px;
+      width: 390px;
+      /* margin-left: 5%; */
+}
+.certificate-title{
+    font-size: x-large;
+    padding-bottom: 50px;
+    text-align: center;
+}
+.certificate-logo > p{
+      align-self: center;
+      text-align: center;
+      font-size: larger;
+}
+.certificate-logo{
+      display: flex;
+
+}
+.vl {
+    border-left: 3px solid black;
+    height: 120px;
+    align-self: center;
+    display: none;
+  }
+.certificate{
+     width: 380px;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     border: 1px solid black;
+     border-radius: 30px;
+     padding: 20px;
+     text-align: center;
+     /* margin-left: 110px; */
+    
+}
+.certificate-details{
+      margin-top:-50px;
+     font-size: large;
+     align-self: center;
+     line-height: 35px;
+}
+
+
+/* Projects */
 .Projects{
       position: absolute;
-      top: 2300px;
+      top: 2600px;
       width: 100%;
 }
 .project-title{
@@ -1239,7 +1379,7 @@ margin-left: 10px;
     display: block;
     text-align: center;
     width: 350px;
-    padding: 15px;
+    padding: 25px;
     border: 1px solid gray;
     margin-bottom: 40px;
     border-radius: 45px;
@@ -1262,7 +1402,7 @@ margin-left: 10px;
 /* contact */
 .contact{
       position: absolute;
-      top:4900px;
+      top:5300px;
       width: 350px;
       margin-left: 5%;
 }
@@ -1508,10 +1648,52 @@ margin-left: 10px;
      z-index: -1;
 }
 
+/* certification */
+    
+.certification{
+      position: absolute;
+      top: 2000px;
+      width: 100%;
+}
+.certificate-title{
+    font-size: x-large;
+    padding-bottom: 50px;
+    text-align: center;
+}
+.certificate-logo > p{
+      text-align: center;
+}
+.certificate-logo{
+    align-self: center;
+}
+.vl {
+    border-left: 3px solid black;
+    height: 120px;
+    align-self: center;
+  }
+.certificate{
+     width: 100%;
+     display: flex;
+     justify-content: center;
+     align-content: center;
+     gap: 40px;
+     border: 1px solid black;
+     border-radius: 30px;
+     padding: 20px;
+     /* margin-left: 110px; */
+     text-align:center;
+    
+}
+.certificate-details{
+     font-size: larger;
+     align-self: center;
+     line-height: 35px;
+}
+
 /* projects */
 .Projects{
       position: absolute;
-      top: 2200px;
+      top: 2350px;
       width: 100%;
 }
 .project-title{
@@ -1555,7 +1737,7 @@ margin-left: 10px;
 /* contact */
 .contact{
       position: absolute;
-      top:4600px;
+      top:4800px;
       width: 100%;
       height: 70vh;
 }
@@ -1865,4 +2047,33 @@ margin-left: 10px;
             text-decoration: none;
             color: black;
       }
+      .certificate{
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-content: center;
+            gap: 40px;
+            border: 1px solid black;
+            border-radius: 30px;
+            padding: 20px;
+            /* margin-left: 110px; */
+            text-align:center;
+           
+       }
+ }
+
+ @media (min-width:1024px){
+      .certificate{
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-content: center;
+            gap: 60px;
+            border: 1px solid black;
+            border-radius: 30px;
+            padding: 20px;
+            /* margin-left: 110px; */
+            text-align:center;
+           
+       }
  }
