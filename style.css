@@ -1056,7 +1056,7 @@ margin-left: 10px;
 /* contact */
 .contact{
       position: absolute;
-      top:5200px;
+      top:5170px;
       width: 300px;
       height: 70vh;
 }
@@ -1672,7 +1672,7 @@ margin-left: 10px;
     align-self: center;
   }
 .certificate{
-     width: 100%;
+     width: 90%;
      display: flex;
      justify-content: center;
      align-content: center;
@@ -1680,7 +1680,7 @@ margin-left: 10px;
      border: 1px solid black;
      border-radius: 30px;
      padding: 20px;
-     /* margin-left: 110px; */
+     margin-left: 3%;
      text-align:center;
     
 }
@@ -2048,7 +2048,7 @@ margin-left: 10px;
             color: black;
       }
       .certificate{
-            width: 100%;
+            width: 90%;
             display: flex;
             justify-content: center;
             align-content: center;
@@ -2056,7 +2056,7 @@ margin-left: 10px;
             border: 1px solid black;
             border-radius: 30px;
             padding: 20px;
-            /* margin-left: 110px; */
+            margin-left: 6%;
             text-align:center;
            
        }
@@ -2064,7 +2064,7 @@ margin-left: 10px;
 
  @media (min-width:1024px){
       .certificate{
-            width: 100%;
+            width: 90%;
             display: flex;
             justify-content: center;
             align-content: center;
@@ -2072,7 +2072,7 @@ margin-left: 10px;
             border: 1px solid black;
             border-radius: 30px;
             padding: 20px;
-            /* margin-left: 110px; */
+            margin-left: 5%;
             text-align:center;
            
        }
